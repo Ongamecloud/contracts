@@ -5,7 +5,9 @@
 - **OGC** : désigne la plateforme Ongamecloud, service d'hébergement de serveurs de jeux multijoueurs.  
 - **Serveur** : instance virtuelle hébergée par OGC permettant à l'utilisateur d'exécuter un espace de jeu multijoueur (ex : Minecraft, Rust, ARK, etc.).  
 - **Utilisateur** : toute personne ou entité ayant souscrit à un service proposé par OGC.  
-- **Support** : service d’assistance mis à disposition par OGC via les canaux officiels (Discord, ticket).
+- **Support** : service d’assistance mis à disposition par OGC via les canaux officiels (Discord, ticket).  
+- **Token** : unité virtuelle utilisée sur la plateforme OGC, équivalente à une valeur de 1 € (un euro).  
+- **Programme de parrainage (Referral Program)** : système permettant à un utilisateur de parrainer de nouveaux membres et de recevoir des récompenses sous forme de tokens.
 
 ---
 
@@ -54,7 +56,32 @@ Conformément à la législation européenne, tout utilisateur particulier bén�
 
 ---
 
-## 6. Modifications des conditions
+## 6. Programme de Parrainage (Referral Program)
+
+### 6.1. Fonctionnement général
+
+Chaque utilisateur OGC dispose automatiquement d’un lien de parrainage unique sous la forme :  
+`/refer/(username-simplifié)-referralId`
+
+Ce lien permet d’inviter de nouveaux utilisateurs à rejoindre la plateforme.
+
+- **Token = 1 €** : les tokens peuvent être utilisés comme moyen de réduction ou de paiement sur la plateforme OGC.  
+- Lorsqu’une personne crée un compte via un lien de parrainage, le système enregistre l’information mais **aucun token n’est encore attribué**.  
+- Si la personne invitée **souscrit à un abonnement payant**, alors :
+  - Le **parrain** reçoit **3 tokens** en attente (*pending tokens*).  
+  - Le **filleul** reçoit également **3 tokens** en attente (*pending tokens*).  
+- Ces tokens sont **bloqués pendant 14 jours** après la date de paiement de l’abonnement pour prévenir les cas de remboursement.  
+- Après ce délai, si l’abonnement n’a pas été remboursé, les tokens en attente sont **validés et transférés sur le compte de chaque utilisateur**.
+
+### 6.2. Limitations et abus
+
+- OGC se réserve le droit de suspendre temporairement ou définitivement le programme de parrainage sans préavis.  
+- Toute tentative de fraude (création de faux comptes, auto-parrainage, abus du système) entraînera la **suppression immédiate des tokens concernés** et **la suspension du compte**.  
+- Les tokens n’ont **aucune valeur monétaire réelle** et **ne peuvent être échangés contre de l’argent**. Ils sont exclusivement utilisables sur la plateforme OGC.
+
+---
+
+## 7. Modifications des conditions
 
 OGC se réserve le droit de modifier les présentes conditions d’utilisation à tout moment.  
 
@@ -63,7 +90,7 @@ OGC se réserve le droit de modifier les présentes conditions d’utilisation �
 
 ---
 
-## 7. Propriété intellectuelle
+## 8. Propriété intellectuelle
 
 - Tous les éléments de la plateforme OGC (logos, contenus, interfaces, textes, designs, images, scripts) sont la propriété exclusive d’OGC ou de ses partenaires.  
 - Toute reproduction, diffusion ou exploitation non autorisée est interdite.  
@@ -71,7 +98,7 @@ OGC se réserve le droit de modifier les présentes conditions d’utilisation �
 
 ---
 
-## 8. Limitation de responsabilité de OGC
+## 9. Limitation de responsabilité de OGC
 
 - OGC ne peut être tenue responsable des dommages indirects, pertes de profits, pertes de données ou interruptions de service subis par l’utilisateur.  
 - OGC ne garantit pas que le service sera exempt d’erreurs ou accessible en permanence.  
@@ -79,7 +106,7 @@ OGC se réserve le droit de modifier les présentes conditions d’utilisation �
 
 ---
 
-## 9. Suspension et résiliation
+## 10. Suspension et résiliation
 
 - OGC se réserve le droit de suspendre ou résilier un compte utilisateur en cas de non-paiement, de violation des CGU, d’abus technique ou de comportement illégal.  
 - En cas de suspension ou résiliation, l’accès aux serveurs et données peut être interrompu immédiatement.  
@@ -87,14 +114,14 @@ OGC se réserve le droit de modifier les présentes conditions d’utilisation �
 
 ---
 
-## 10. Droit applicable et juridiction
+## 11. Droit applicable et juridiction
 
 - Les présentes CGU sont régies par le droit français.  
 - Tout litige relatif à l’interprétation ou à l’exécution des présentes sera soumis à la compétence exclusive des tribunaux de **Paris, France**.
 
 ---
 
-## 11. Contact et assistance
+## 12. Contact et assistance
 
 Pour toute question, demande d’assistance ou réclamation, l’utilisateur peut :  
 
